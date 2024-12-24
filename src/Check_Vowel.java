@@ -1,5 +1,5 @@
 public class Check_Vowel {
-    static char check_vowel(char a){
+    static void check_vowel(char a){
 
         switch (a){
             case 'a':
@@ -35,7 +35,7 @@ public class Check_Vowel {
             default:
                 System.out.println("Is not a vowel");
         }
-        return 0;
+
     }
     public static void main(String[] args){
         check_vowel('a');

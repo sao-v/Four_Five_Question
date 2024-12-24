@@ -9,6 +9,6 @@ public class LeapYear {
 
     }
     public static void main(String[] args){
-        IsleapYear(2002);
+        IsleapYear(2000);
     }
 }

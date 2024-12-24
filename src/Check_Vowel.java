@@ -35,7 +35,7 @@ public class Check_Vowel {
             default:
                 System.out.println("Is not a vowel");
         }
-        return a;
+        return 0;
     }
     public static void main(String[] args){
         check_vowel('a');
